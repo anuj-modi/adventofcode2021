@@ -92,7 +92,6 @@ impl BingoBoard {
         for r in 0..self.board.len() {
             let mut column_complete = true;
             for c in 0..self.board.len() {
-                // println!("self.board[{}][{}]", c, r);
                 column_complete &= self.board[c][r].1;
             }
             if column_complete {
