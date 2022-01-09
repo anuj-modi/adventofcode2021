@@ -40,7 +40,6 @@ fn main() {
             }
 
             if low_point {
-                // println!("num is {}, i is {}, j is {}", numbers[i][j], i, j);
                 risk += numbers[i][j] + 1;
             }
         }
